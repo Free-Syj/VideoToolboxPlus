@@ -1,5 +1,7 @@
 #VideoToolboxPlus
 Objective-C wrapper for and additions to VideoToolbox
+还在为封装CMSampleBuffer编码失败烦恼吗？失败大多数是由于硬编中只认由iosurface申请来的内存。
+现在封装了编码yuv420p当然也可参考封装的方法进行其它格式的的封装。
 
 ###usage
 ```objectivec
